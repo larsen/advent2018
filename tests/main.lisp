@@ -1,4 +1,4 @@
 (in-package #:advent2018/test)
 
-(define-test dummy
-  (is = 1 1))
+(define-test day1
+  (is = (day1/solution1) 582))

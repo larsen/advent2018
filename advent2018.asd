@@ -6,7 +6,8 @@
   :version "0.0.1"
   :serial t
   :depends-on (#:alexandria #:cl-ppcre #:split-sequence)
-  :components ((:file "package")))
+  :components ((:file "package")
+               (:file "day1")))
 
 (asdf:defsystem #:advent2018/test
   :depends-on (#:advent2018
