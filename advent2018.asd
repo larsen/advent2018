@@ -7,7 +7,8 @@
   :serial t
   :depends-on (#:alexandria #:cl-ppcre #:split-sequence)
   :components ((:file "package")
-               (:file "day1")))
+               (:file "day1")
+               (:file "day2")))
 
 (asdf:defsystem #:advent2018/test
   :depends-on (#:advent2018
